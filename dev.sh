@@ -1,0 +1,1 @@
+cd ui && npm run dev & cd api && DEBUG=tsunami-api:* PORT=3001 npx nodemon

@@ -1,0 +1,60 @@
+- Make a component for individual chords with slots for the particular chord
+- Make a component for chord display that contains each variation of the chord
+- Each chord should be labeled (chord title and "X of X") and have a favorites button.
+
+- Sidebar?
+  - Contains a dropdown with all chords in song
+  - Tools (transpose, autoscroll)
+  - Login
+  - Favorite tabs
+  - Starred chords
+
+- Pages dedicated to chords (links to transposed versions, displays all variations)
+- Tab view needs a description section and uploader
+- Increase and decrease font size
+
+- Function to convert tab string into object with separated lines and detected chords
+  - Should trim leading and trailing spaces
+  - Maybe auto-capitalize chords
+
+- Fix mobile rendering
+  - May need to combine chord lines and lyric lines so they wrap together.
+    This might require a function that differentiates lyrics from symbols/notes that intersperse with chords
+    The function would probably need to automatically group lines
+      - Cases:
+          1. 1 line of chords and 1 line of lyrics
+          2. Arbitrary number of lines of chords
+          3. ?
+  - Function to detect actual tablature and wrap properly.
+      - This would require line groups of several lines (most likely just support 4 and 6 for guitar, bass, and uke)
+  - Consider a mobile-only linebreak indicator
+
+- Custom scroll indicator for chords
+- Render chords with sans-serif font
+
+- Effectively combine api and ui into one binary
+
+- Clean up working tree
+
+- Autoscroll feature
+- Chord transposition feature
+- Integrate chords with chord-db
+
+- Sign in page
+- Signup page
+- Public profile page
+- Profile settings page
+- Favorites page
+- Home page
+- Tab search by title or artist
+
+- Tab upload panel
+- Tab editing panel that allows for disabling chords that the algorithm falsely identifies (i.e. Am)
+
+- Create git repo
+- Green button for signup link
+
+- Option to display tab difficulty
+- Remove crypto-js dep
+
+- Go open source!

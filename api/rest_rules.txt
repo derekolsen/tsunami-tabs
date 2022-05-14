@@ -1,0 +1,6 @@
+METHOD    ADDRESS   RESOURCE
+GET 	    / 	      get table data
+GET 	    /{id} 	  get {id} record details
+PUT 	    /{id} 	  edit {id} record
+POST 	    / 	      store new record
+DELETE 	  /{id} 	  delete {id} record

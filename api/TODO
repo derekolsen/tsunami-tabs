@@ -1,0 +1,8 @@
+Integrate this package with the Vue frontend package
+Design session cookies
+Check for valid email input in view and backend (no special unicode, proper email format, use ejs?)
+Check for valid password input in view and backend (no special unicode, use ejs?)
+Return failed login attempts (use ejs?)
+Password reset engine (marginally big project)
+Log backend errors to file
+Create 404 page
